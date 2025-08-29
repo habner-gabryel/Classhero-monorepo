@@ -1,7 +1,10 @@
 ﻿class Program {
     static void Main()
     {
-        double resultado = 0.1 + 0.2 + 0.3;
-        Console.WriteLine("Resultado da soma 0.1 + 0.2 + 0.3 = " + resultado);
+        double a = 0.1 + 0.2;
+        double b = 0.3;
+
+        Console.WriteLine(a == b);
+        Console.WriteLine(a + " vs " + b);
     }
 }
